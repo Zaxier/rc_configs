@@ -116,10 +116,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias ll="ls -la"
-alias la="ls -a"
+# User shortcuts
+#alias ll="ls -la"
+#alias la="ls -a"
+alias cdo="cd /mnt/c/Users/xarmitage/OneDrive\ -\ Deloitte\ \(O365D\)/"
+alias cdm="cd /mnt/c/"
+alias cdx="cd /mnt/c/Users/xarmitage/"
 
-alias cdo ="cd /mnt/c/Users/xarmitage/OneDrive\ -\ Deloitte\ \(O365D\)/"
-alias cdm ="cd /mnt/c/"
-alias cdx ="cd /mnt/c/Users/xarmitage"
+# Virtual env wrapper initialise
+source /usr/local/bin/virtualenwrapper.sh 
 
